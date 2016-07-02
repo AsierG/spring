@@ -1,0 +1,5 @@
+CREATE USER sample WITH PASSWORD 'sample';
+CREATE DATABASE sample;
+GRANT ALL PRIVILEGES ON DATABASE sample to sample;	
+
+commit;

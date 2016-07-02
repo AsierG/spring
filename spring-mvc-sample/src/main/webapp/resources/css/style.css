@@ -1,0 +1,66 @@
+body {
+	padding-top: 50px;
+	height: 100%;
+}
+
+#title-enroll .jumbotron {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	text-align: center;
+}
+
+.forms {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+color: #f9690e;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+table .clicable {
+	cursor: pointer;
+}
+
+.small-top-buffer {
+	margin-top: 2px;
+}
+
+.top-buffer {
+	margin-top: 10px;
+}
+
+.left-buffer {
+	margin-left: 0px;
+}
+
+#explanation {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* === FOOTER === */
+#footer {
+	padding: 20px;
+	/* 	height: 60px; */
+	background: #22313f;
+	/* 	background-color: #f5f5f5; */
+	color: white;
+}
+
+#footer a {
+	color: #f5ab35;
+}
+
+#footer a:hover {
+	
