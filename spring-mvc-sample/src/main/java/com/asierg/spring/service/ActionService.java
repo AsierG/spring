@@ -1,13 +1,13 @@
 package com.asierg.spring.service;
 
-import java.util.List;
-
 import com.asierg.spring.model.Action;
 
- interface ActionService {
+import java.util.List;
 
-	 Action createAction(Action action);
+public interface ActionService {
 
-	 List<Action> findAllOrderByDateAsc();
+    Action createAction(Action action);
+
+    List<Action> findAllOrderByDateAsc();
 
 }

@@ -5,7 +5,7 @@ import com.asierg.spring.model.Book;
 
 import java.util.List;
 
-interface BookService {
+public interface BookService {
 
     Book createBook(Book book);
 
