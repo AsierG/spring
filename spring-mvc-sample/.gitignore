@@ -2,3 +2,5 @@
 /.settings/
 /.classpath
 /.project
+.idea/
+spring-mvc-sample.iml

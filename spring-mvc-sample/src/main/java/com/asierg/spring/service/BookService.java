@@ -1,22 +1,22 @@
 package com.asierg.spring.service;
 
-import java.util.List;
-
 import com.asierg.spring.form.SearchBookForm;
 import com.asierg.spring.model.Book;
 
-public interface BookService {
+import java.util.List;
 
-	public Book createBook(Book book);
+interface BookService {
 
-	public Book updateBook(Book bookDto);
+    Book createBook(Book book);
 
-	public List<Book> getAllBooks();
+    Book updateBook(Book bookDto);
 
-	public List<Book> getBooksBySearchForm(SearchBookForm searchBookForm);
+    List<Book> getAllBooks();
 
-	public void delete(Long id);
+    List<Book> getBooksBySearchForm(SearchBookForm searchBookForm);
 
-	public Book findById(Long id);
+    void delete(Long id);
+
+    Book findById(Long id);
 
 }

@@ -4,10 +4,10 @@ import java.util.List;
 
 import com.asierg.spring.model.Action;
 
-public interface ActionService {
+ interface ActionService {
 
-	public Action createAction(Action action);
+	 Action createAction(Action action);
 
-	public List<Action> findAllOrderByDateAsc();
+	 List<Action> findAllOrderByDateAsc();
 
 }
