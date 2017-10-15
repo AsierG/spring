@@ -45,8 +45,7 @@ public class BookController extends GlobalControllerHandler {
 	}
 
 	@RequestMapping(value = "/searchBooks", method = RequestMethod.GET)
-	public String searchBooks(@Valid @ModelAttribute("searchBookForm") SearchBookForm searchBookForm,
-			BindingResult bindingResult, Model model) {
+	public String searchBooks(@Valid @ModelAttribute("searchBookForm") SearchBookForm searchBookForm, Model model) {
 		List<Book> books = bookService.getBooksBySearchForm(searchBookForm);
 		model.addAttribute("results", books);
 		return "book/search-books";
