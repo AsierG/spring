@@ -2,29 +2,29 @@ package com.asierg.spring.form;
 
 public class SearchBookForm {
 
-	private String title;
+    private String title;
 
-	private String description;
+    private String description;
 
-	public String getTitle() {
-		return title;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	public String getDescription() {
-		return description;
-	}
+    public String getDescription() {
+        return description;
+    }
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-	@Override
-	public String toString() {
-		return "SearchBookForm [title=" + title + ", description=" + description + "]";
-	}
+    @Override
+    public String toString() {
+        return "SearchBookForm [title=" + title + ", description=" + description + "]";
+    }
 
 }

@@ -9,10 +9,10 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface LogSampleMethod {
 
-	public enum Action {
-		VIEW, CREATE, UPDATE, DELETE
-	}
+    enum Action {
+        VIEW, CREATE, UPDATE, DELETE
+    }
 
-	public Action action() default Action.VIEW;
+    Action action() default Action.VIEW;
 
 }
